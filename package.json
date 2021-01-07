@@ -4,7 +4,7 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "package":"electron-packager . HelloWorld --platform=win32 --arch=x64 --icon='src\\image\\desktop1.ico' --out=./out --asar --app-version=0.0.1 --overwrite --ignore=node_modules"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
